@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from "../component/Navbar"
 import Landing from "../component/home/landing"
 import Article from "../component/home/article"
+import Footer from "../component/footer"
 function Index() {
   return (
     <>
@@ -80,6 +81,7 @@ function Index() {
             </div>
             <br/><br/>
         </div>
+        <Footer />
     </>
   )
 }
