@@ -68,3 +68,15 @@ html, body {
   background-color: #CBCBCB;
   margin: 20px 0;
 }
+
+.col-2, .col-3 {
+  display: flex;
+}
+
+.col-2 .col {
+  width: 50%;
+}
+
+.col-3 .col {
+  width: 33.33%;
+}
