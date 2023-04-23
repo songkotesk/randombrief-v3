@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div>
       <div className='polka'>
-
+        
       </div>
     </div>
   )
