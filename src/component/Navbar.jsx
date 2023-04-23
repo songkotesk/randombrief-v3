@@ -10,9 +10,9 @@ const Navbar = () => {
         <p className='text-base font-light p-4'>สนุกกับการออกแบบ</p>
       </div>
       <ul className='flex text-base font-light'>
-        <li className='p-4 pr-10'>บล็อก</li>
-        <li className='p-4 pr-10'>เกี่ยวกับ</li>
-        <li className='p-4 pr-10 fa-lg'><FontAwesomeIcon icon={faSun}/></li>
+        <li className='p-4 pr-10 list-none'>บล็อก</li>
+        <li className='p-4 pr-10 list-none'>เกี่ยวกับ</li>
+        <li className='p-4 pr-10 list-none fa-lg'><FontAwesomeIcon icon={faSun}/></li>
       </ul>
     </div>
   )

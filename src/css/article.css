@@ -1,0 +1,46 @@
+.articleWraper{
+  margin: auto;
+  width: 896px;
+}
+
+.articleImage {
+  width: 896px;
+  height: 236px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin-bottom: 3vh;
+}
+
+img {
+  border-radius: 25px;
+}
+
+.articleContent {
+  width: 896px;
+  height: 1077px;
+  background-color: #F9F9F9;
+  border-radius: 25px;
+}
+
+.articleHead {
+  width: 896px;
+  font-weight: 600;
+  font-size: 48px;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+}
+
+.articleSection {
+  font-size: 24px;
+  font-weight: 500;
+  color: #7B4D9C;
+}
+
+li {
+  list-style-type:disc;
+  font-weight: 300;
+}
+
+li b {
+  font-weight: 600;
+}

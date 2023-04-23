@@ -1,0 +1,17 @@
+.footerWarper {
+  width: 896px;
+  height: 7vh;
+  border-top: solid 1px;
+  border-color: gray;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+p {
+  font-size: 16px;
+}
+
+.iconPadding {
+  padding-left: 20px;
+}
