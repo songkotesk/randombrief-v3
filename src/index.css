@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Prompt', sans-serif;
+}
+
+.polka {
+  background-image: 
+    radial-gradient(rgb(255, 255, 255) 12.8%, transparent 12.8%);
+  background-position: 16px 16px;
+  background-size: 32px 32px;
+  background-color: rgb(255, 51, 51);
+}
