@@ -1,25 +1,27 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 function Article() {
   return (
     <div className='home-article'>
-        <h1 className='topic'>บทความ</h1>
+        <h1 className='topic pt-20'>บทความ</h1>
 
         <div className='article-list'>
             <div className="item">
-                <div className="img"></div>
+                <div className="img">
+                    <img src="src\assets\article1-1.png" alt="/"/>
+                </div>
                 <div className="content">
                     <div className="centerContainer">
-                        <p className='title'>การออแบบโลโก้</p>
+                        <p className='title'>การออกแบบโลโก้</p>
                         <p className='desc'>วิธีการออกแบบโลโก้คร่าว ๆ</p>
                     </div>
                 </div>
             </div>
 
             <div className="item">
-                <div className="img"></div>
+                <div className="img">
+                    <img src="src\assets\article2-2.png" alt="/"/>
+                </div>
                 <div className="content">
                     <div className="centerContainer">
                         <p className='title'>ประเภทของโลโก้</p>

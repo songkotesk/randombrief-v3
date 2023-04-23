@@ -18,7 +18,7 @@
   border-color: #DCDCDC;
 }
 
-img {
+.articleWraper .articleImage .img {
   border-radius: 25px;
   width: 896px;
   height: 236px;

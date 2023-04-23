@@ -10,7 +10,7 @@ function article1() {
       <div className='articleWraper'>
         <p className='articleHead'>การออกแบบโลโก้</p>
         <div className="articleImage">
-          <img src="src\assets\article1.png" alt="/" />
+          <img src="src\assets\article1.png" alt="/" className='img'/>
         </div>
         <div className="articleContent">
           <p className='p-10 pb-5 font-light'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;โลโก้ที่ดีนั้นเป็นมากกว่าแค่รูปภาพหรือคำ โลโก้ที่ยอดเยี่ยมจะบอกเล่าเรื่องราวเกี่ยวกับบริษัทของคุณว่าคุณ เป็นใคร ทำอะไร และยึดหมั่นในหลักการอะไร นี่ดูจะเป็นการเรียกร้องหลายสิ่งจากแค่งานศิลปะชิ้นหนึ่ง และจึงเป็น เหตุว่าทำไมคุณควรใช้เวลาออกแบบมันให้ถูกต้อง โชคดีไปว่าคุณไม่ต้องทำมันเพียงลำพัง ขั้นตอนข้างล่างนี้จะ นำเสนอกระบวนการออกแบบโลโก้ที่จะช่วยสร้างชื่อเสียงให้คุณในท้องตลาด</p>
