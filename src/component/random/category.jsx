@@ -1,6 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 function Category() {
   return (
@@ -8,8 +6,10 @@ function Category() {
       <div className="sub">
         <div className="col-2">
           <div className="col">
-            <div className="card">
-              <div className="img"></div>
+            <div className="card active">
+              <div className="img">
+                <img src="src\assets\emoji4.png" alt="/" />
+              </div>
               <div className="text">
                 <div className="centerContainer">
                   <p>สุ่ม</p>
@@ -17,34 +17,42 @@ function Category() {
               </div>
             </div>
             <div className="card">
-              <div className="img"></div>
+              <div className="img">
+                <img src="src\assets\emoji5.png" alt="/" />
+              </div>
               <div className="text">
                 <div className="centerContainer">
-                  <p>สุ่ม</p>
+                  <p>เทคโนโลยี</p>
                 </div>
               </div>
             </div>
             <div className="card">
-              <div className="img"></div>
+              <div className="img">
+                <img src="src\assets\emoji6.png" alt="/" />
+              </div>
               <div className="text">
                 <div className="centerContainer">
-                  <p>สุ่ม</p>
+                  <p>อาหาร</p>
                 </div>
               </div>
             </div>
             <div className="card">
-              <div className="img"></div>
+              <div className="img">
+                <img src="src\assets\emoji7.png" alt="/" />
+              </div>
               <div className="text">
                 <div className="centerContainer">
-                  <p>สุ่ม</p>
+                  <p>ร้านค้าปลีก</p>
                 </div>
               </div>
             </div>
             <div className="card">
-              <div className="img"></div>
+              <div className="img">
+                <img src="src\assets\emoji8.png" alt="/" />
+              </div>
               <div className="text">
                 <div className="centerContainer">
-                  <p>สุ่ม</p>
+                  <p>ความบันเทิง</p>
                 </div>
               </div>
             </div>
@@ -53,43 +61,53 @@ function Category() {
 
 
           <div className="col">
-            <div className="card active">
-              <div className="img"></div>
+            <div className="card">
+              <div className="img">
+                <img src="src\assets\emoji9.png" alt="/" />
+              </div>
               <div className="text">
                 <div className="centerContainer">
-                  <p>สุ่ม</p>
+                  <p>แฟชั่น</p>
                 </div>
               </div>
             </div>
             <div className="card">
-              <div className="img"></div>
+              <div className="img">
+                <img src="src\assets\emoji10.png" alt="/" />
+              </div>
               <div className="text">
                 <div className="centerContainer">
-                  <p>สุ่ม</p>
+                  <p>กีฬา</p>
                 </div>
               </div>
             </div>
-            <div className="card active">
-              <div className="img"></div>
+            <div className="card">
+              <div className="img">
+                <img src="src\assets\emoji11.png" alt="/" />
+              </div>
               <div className="text">
                 <div className="centerContainer">
-                  <p>สุ่ม</p>
+                  <p>ความงาม  </p>
                 </div>
               </div>
             </div>
-            <div className="card active">
-              <div className="img"></div>
+            <div className="card">
+              <div className="img">
+                <img src="src\assets\emoji12.png" alt="/" />
+              </div>
               <div className="text">
                 <div className="centerContainer">
-                  <p>สุ่ม</p>
+                  <p>อสังหาริมทรัพย์</p>
                 </div>
               </div>
             </div>
-            <div className="card active">
-              <div className="img"></div>
+            <div className="card">
+              <div className="img">
+                <img src="src\assets\emoji13.png" alt="/" />
+              </div>
               <div className="text">
                 <div className="centerContainer">
-                  <p>สุ่ม</p>
+                  <p>การท่องเที่ยว</p>
                 </div>
               </div>
             </div>

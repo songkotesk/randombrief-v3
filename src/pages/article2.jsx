@@ -6,8 +6,10 @@ import '../css/article.css';
 function article1() {
   return (
     <>
-      <Navbar />
-      <div className='articleWraper'>
+      <div className='fixed end-0 w-full bg-white truncate mb-30'>
+        <Navbar />
+      </div>
+      <div className='articleWraper pt-20'>
         <p className='articleHead'>ประเภทของโลโก้</p>
         <div className="articleImage">
           <img src="src\assets\article2.png" alt="/" />

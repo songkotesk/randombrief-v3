@@ -15,3 +15,15 @@ p {
 .iconPadding {
   padding-left: 20px;
 }
+
+.detail {
+  width: 49%;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.socialIcon {
+  width: 49%;
+  display: flex;
+  justify-content:flex-end;
+}

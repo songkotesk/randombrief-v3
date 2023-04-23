@@ -18,9 +18,6 @@ function Landing() {
             </div>
             <div className='arrow-down animate-bounce'>
                 <FontAwesomeIcon icon={faChevronDown} />
-            <div className='polkadot'>
-
-            </div>
             </div>
         </div>
     )

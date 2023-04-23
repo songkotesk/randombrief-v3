@@ -17,19 +17,26 @@ html, body {
   background-color: #F9F9F9;
   border-radius: 10px;
   font-size: 25px;
+  transition: .25s;
+  border: solid 2px;
+  border-color: #c7c7c7;
 }
 
 .btn:hover {
   background-color: #dddddd;
+  transition: .25s;
 }
 
 .btn:active {
   background-color: #c7c7c7;
+  transform: scale(0.9);
+  transition: .25s;
 }
 
 .btn.primary {
   background-color: var(--primary-btn-color);
   color: white;
+  border: none;
   animation: ease;
   transition: 0.3s;
 }

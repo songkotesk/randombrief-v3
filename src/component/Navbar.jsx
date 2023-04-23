@@ -4,7 +4,7 @@ import { faSun } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between items-center border-b-2'>
+    <div className='flex justify-between items-center border-b-2 bg-white'>
       <div className='flex'>
         <p className='text-xl font-semibold p-4 pt-3 pl-10'>สบ.</p>
         <p className='text-base font-light p-4'>สนุกกับการออกแบบ</p>
