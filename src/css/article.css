@@ -6,18 +6,29 @@
 .articleImage {
   width: 896px;
   height: 236px;
-  background-color: rgb(255, 255, 255);
   border-radius: 25px;
   margin-bottom: 3vh;
 }
 
+.typeImage {
+  width: 826px;
+  margin: auto;
+  border-radius: 25px;
+  border: solid 2px;
+  border-color: #DCDCDC;
+}
+
 img {
   border-radius: 25px;
+  width: 896px;
+  height: 236px;
+  object-fit:fill;
 }
 
 .articleContent {
   width: 896px;
-  height: 1077px;
+  height: auto;
+  padding-bottom: 5vh;
   background-color: #F9F9F9;
   border-radius: 25px;
 }

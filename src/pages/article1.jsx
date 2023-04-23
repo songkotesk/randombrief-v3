@@ -1,18 +1,18 @@
 import React from 'react';
-import Navbar from "../component/Navbar";
-import Footer from '../component/Footer';
+import Navbar from "../component/navbar";
+import Footer from '../component/footer';
 import '../css/article.css';
 
 function article1() {
   return (
     <>
-        <Navbar />
-        <div className='articleWraper'>
-          <p className='articleHead'>การออกแบบโลโก้</p>
-          <div className="articleImage">
-            <img src="src\assets\article1.png" alt="/" />
-          </div>
-          <div className="articleContent">
+      <Navbar />
+      <div className='articleWraper'>
+        <p className='articleHead'>การออกแบบโลโก้</p>
+        <div className="articleImage">
+          <img src="src\assets\article1.png" alt="/" />
+        </div>
+        <div className="articleContent">
           <p className='p-10 pb-5 font-light'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;โลโก้ที่ดีนั้นเป็นมากกว่าแค่รูปภาพหรือคำ โลโก้ที่ยอดเยี่ยมจะบอกเล่าเรื่องราวเกี่ยวกับบริษัทของคุณว่าคุณ เป็นใคร ทำอะไร และยึดหมั่นในหลักการอะไร นี่ดูจะเป็นการเรียกร้องหลายสิ่งจากแค่งานศิลปะชิ้นหนึ่ง และจึงเป็น เหตุว่าทำไมคุณควรใช้เวลาออกแบบมันให้ถูกต้อง โชคดีไปว่าคุณไม่ต้องทำมันเพียงลำพัง ขั้นตอนข้างล่างนี้จะ นำเสนอกระบวนการออกแบบโลโก้ที่จะช่วยสร้างชื่อเสียงให้คุณในท้องตลาด</p>
           <p className='articleSection pl-10 pr-10'>ระดมความคิด</p>
           <ul className='pl-20 pr-10'>
@@ -37,9 +37,9 @@ function article1() {
             <li><b>สร้างแบบร่างขั้นสุดท้าย</b> ท้ายที่สุดแล้ว คุณจะต้องแปลงโลโก้เป็นดิจิทัล คุณสามารถทำขั้นตอนนี้ด้วยตัวเอง หรือจ้างมืออาชีพก็ได้</li>
             <li><b>รับฟังเสมอ</b> เมื่อโลโก้เสร็จแล้ว คุณควรคอยดูผลตอบรับของการออกแบบอยู่เสมอ</li>
           </ul>
-          </div>
         </div>
-        <Footer />
+      </div>
+      <Footer />
     </>
   )
 }
