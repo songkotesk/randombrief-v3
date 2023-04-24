@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from "../component/Navbar"
 import Landing from "../component/home/landing"
 import Article from "../component/home/article"
 import Footer from "../component/footer"
 import About from '../component/home/about';
+import NavbarHome from '../component/navbarHome';
 
 function Index() {
   return (
     <>
-        <Navbar />
+        <NavbarHome />
         <Landing/>
         <div className="home-container">
             <Article/>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Article() {
   return (
-    <div className='home-article' id='article'>
+    <div className='home-article pt-10' id="article">
         <h1 className='topic pt-20'>บทความ</h1>
 
         <div className='article-list'>

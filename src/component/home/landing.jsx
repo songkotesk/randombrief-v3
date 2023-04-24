@@ -4,7 +4,7 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 function Landing() {
     return (
-        <div className='home-landing'>
+        <div className='home-landing' id='landing'>
             <div className="centerContainer">
                 <div className='sub'>
                     <h1 className='header-txt'>รับบรีฟที่ไม่ซ้ำใคร</h1>

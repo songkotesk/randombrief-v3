@@ -1,14 +1,12 @@
 import React from 'react';
-import Navbar from "../component/navbar";
+import Navbar from "../component/Navbar";
 import Footer from '../component/footer';
 import '../css/article.css';
 
 function article1() {
   return (
     <>
-      <div className='fixed end-0 w-full bg-white truncate mb-30'>
-        <Navbar />
-      </div>
+      <Navbar />
       <div className='articleWraper pt-20'>
         <p className='articleHead'>การออกแบบโลโก้</p>
         <div className="articleImage">
