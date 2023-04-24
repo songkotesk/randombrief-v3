@@ -28,7 +28,7 @@ const About = () => {
             <img src='src\assets\emoji2.png' className='absolute right-6 bottom-0 w-auto h-auto' />
           </div>
         </div>
-        <div className='box'>
+        <div className='box longmoji'>
           <div className="card" style={{ height: 'calc(100% - 20px)' }}>
             <p className="title">เกี่ยวกับเรา?</p>
             <p className="desc">
