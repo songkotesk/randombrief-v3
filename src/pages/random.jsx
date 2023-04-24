@@ -9,17 +9,27 @@ import NavbarRandom from '../component/navbarRandom';
 
 function Random() {
     const [isOpenCategory, setOpenCategory] = useState(false);
+    
+    const [category,setCategory] = useState('technology');
 
-    let defaultNum = Math.floor(Math.random() * Datas.length);
-
-    const [brief,setBrief] = useState(Datas[defaultNum]);
+    let defaultNum = Math.floor(Math.random() * Datas[category].length);
+    
+    const [brief,setBrief] = useState(Datas[category][defaultNum]);
 
     const getBrief = () => {
-        let randomNum = Math.floor(Math.random() * Datas.length);
-        setBrief(Datas[randomNum])
+        let randomNum = Math.floor(Math.random() * Datas[category].length);
+        setBrief(Datas[category][randomNum])
     }
 
-    
+    const [loading,setLoading] = useState(false);
+
+    const MakeLoading = () => {
+        setLoading(true)
+        setTimeout(() => {
+            getBrief()
+            setLoading(false)
+        }, 1000);
+    }
 
     return (
         <>
@@ -27,9 +37,9 @@ function Random() {
             <NavbarRandom />
             <div className='page-container relative'>
                 <div className="sub">
-                    <BriefInfo/>
-                    <div className={'subCate ' + (!isOpenCategory ? 'absolute top-[-5%] left-[50%] translate-x-[-50%] w-[900px] ease duration-500 opacity-100' : 'absolute top-[-4%] left-[50%] translate-x-[-50%] w-[900px] ease duration-500 block invisible opacity-0')}>
-                        <Category/>
+                    <BriefInfo brief={brief} loading={loading}/>
+                    <div className={'subCate ' + (isOpenCategory ? 'absolute top-[-5%] left-[50%] translate-x-[-50%] w-[900px] ease duration-500 opacity-100' : 'absolute top-[-4%] left-[50%] translate-x-[-50%] w-[900px] ease duration-500 block invisible opacity-0')}>
+                        <Category Datas={Datas} category={category} setCategory={setCategory} setOpenCategory={setOpenCategory}/>
                     </div>        
                 </div>
             </div>
@@ -42,7 +52,10 @@ function Random() {
                         </button>
                     </div>
                     <div className="col">
-                        <button className="btn primary btn-random">สุ่มบรีฟ</button>
+                        <button className="btn primary btn-random" onClick={MakeLoading} disabled={loading}>
+                            {loading && "กำลังสุ่ม"}
+                            {loading === false && "สุ่มบรีฟ"}
+                        </button>
                     </div>
                     <div className="col">
                         <button className="btn btn-random">
