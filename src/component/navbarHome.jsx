@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSun } from '@fortawesome/free-solid-svg-icons'
+import { faSun, faBars } from '@fortawesome/free-solid-svg-icons'
 
 const NavbarHome = () => {
+  const [ isShowMenu, setIsShowMenu ] = useState(false)
   return (
     <div className='fixed end-0 w-full truncate flex justify-between items-center border-b-2 bg-white z-10'>
       <div className='flex'>
@@ -12,12 +13,19 @@ const NavbarHome = () => {
         </p>
         <p className='text-base font-light p-4'>สนุกกับการออกแบบ</p>
       </div>
-      <ul className='flex text-base font-light'>
+      <button className="toggle-menu-btn" onClick={() => { setIsShowMenu(!isShowMenu) }}>
+        <FontAwesomeIcon icon={faBars} />
+      </button>
+    <ul className={'nav-menu flex text-base font-light ' + (isShowMenu ? 'active' : '')} >
         <li className='p-4 pr-10 list-none'>
-          <Link to="article" spy={true} smooth={true} offset={-50} duration={500} className='cursor-pointer'>บล็อก</Link>
+          <Link to="article"
+            onClick={() => { setIsShowMenu(false) }}
+            spy={true} smooth={true} offset={-50} duration={500} className='cursor-pointer'>บล็อก</Link>
         </li>
         <li className='p-4 pr-10 list-none'>
-          <Link to="about" spy={true} smooth={true} offset={-100} duration={500} className='cursor-pointer'>เกี่ยวกับ</Link>
+          <Link
+            onClick={() => { setIsShowMenu(false) }}
+            to="about" spy={true} smooth={true} offset={-100} duration={500} className='cursor-pointer'>เกี่ยวกับ</Link>
         </li>
         <li className='p-4 pr-10 list-none cursor-pointer fa-lg'><FontAwesomeIcon icon={faSun} /></li>
       </ul>

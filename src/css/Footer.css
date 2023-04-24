@@ -27,3 +27,38 @@ p {
   display: flex;
   justify-content:flex-end;
 }
+
+@media screen and (max-width: 768px) {
+  .footerWarper {
+    padding-bottom: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: unset;
+  }
+
+  .detail {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .socialIcon {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .iconPadding {
+    padding-left: 0px !important;
+  }
+
+  .socialIcon a svg {
+    padding-left: 0px !important;
+  }
+
+  .socialIcon > a + a {
+    padding-left: 20px !important;
+  }
+}

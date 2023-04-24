@@ -12,10 +12,12 @@ function Random() {
     return (
         <>
             <Navbar />
-            <div className='relative'>
-                <BriefInfo/>
-                <div className={!isOpenCategory ? 'absolute top-[-5%] left-[50%] translate-x-[-50%] w-[900px] ease duration-500 opacity-100' : 'absolute top-[-4%] left-[50%] translate-x-[-50%] w-[900px] ease duration-500 block invisible opacity-0'}>
-                    <Category/>
+            <div className='page-container relative'>
+                <div className="sub">
+                    <BriefInfo/>
+                    <div className={'subCate ' + (!isOpenCategory ? 'absolute top-[-5%] left-[50%] translate-x-[-50%] w-[900px] ease duration-500 opacity-100' : 'absolute top-[-4%] left-[50%] translate-x-[-50%] w-[900px] ease duration-500 block invisible opacity-0')}>
+                        <Category/>
+                    </div>        
                 </div>
             </div>  
             <div className="rand-container">
