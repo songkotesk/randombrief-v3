@@ -1,7 +1,6 @@
 import React from 'react'
+import '../css/navbar.css';
 import { Link } from 'react-scroll'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSun } from '@fortawesome/free-solid-svg-icons'
 
 const NavbarHome = () => {
   return (
@@ -19,7 +18,6 @@ const NavbarHome = () => {
         <li className='p-4 pr-10 list-none'>
           <Link to="about" spy={true} smooth={true} offset={-100} duration={500} className='cursor-pointer'>เกี่ยวกับ</Link>
         </li>
-        <li className='p-4 pr-10 list-none cursor-pointer fa-lg'><FontAwesomeIcon icon={faSun} /></li>
       </ul>
     </div>
   )

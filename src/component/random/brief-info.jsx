@@ -25,11 +25,11 @@ function BriefInfo() {
               <p className="value">Expertise, reliability, speed</p>
             </div>
             <div className='content-detail'>
-            <p className="title">Design Style:</p>
+              <p className="title">Design Style:</p>
               <p className="value">Modern and sleek.</p>
             </div>
             <div className='content-detail'>
-              <p className="title">Color Preferemces:</p>
+              <p className="title">Color Preference:</p>
               <p className="value">Blue and silver.</p>
             </div>
           </div>
@@ -49,7 +49,7 @@ function BriefInfo() {
           </div>
         </div>
       </div>
-        
+
     </div>
   )
 }
